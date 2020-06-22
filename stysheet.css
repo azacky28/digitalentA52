@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px #E5E4E4;
+  position: fixed;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  padding: 6px;
+  float: left;
+}
+
+.header-left h2 {
+  font-size: 20px;
+  padding: 10px 20px;
+  font-family: "Comic Sans MS";
+  color: #626161;
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color:  #E85A5A;
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: #FA9C9C;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+/* BAGIAN TOP WRAPPER */
+.top-wrapper {
+  padding: 80px 0 80px 0;
+  background-image: url(https://wallpapercave.com/wp/wp2691065.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 560px;
+}
+
+.top-wrapper h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: white;
+}
+
+.container2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 800px;
+  margin: 10px auto;
+  padding: 50px;
+}
+
+.logo2 {
+  width: 50%;
+  margin-top: 50px;
+}
+
+/* MIDDLE WRAPPER */
+.middle-wrapper {
+  background-color: #E85A5A;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+li {
+  height: 300px;
+  line-height: 20px;;
+}
+
+li p {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.li1 {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/83/388/879/food-hot-dog-wallpaper-preview.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.li2 {
+  background-image: url(https://x5w3j9u7.stackpathcdn.com/wp-content/uploads/2019/06/garlic-mushroom-avocado-toast-recipe-vegan-easy-snack-guacamole-knoblauch-pilze-720x1008.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.li3 {
+  background-image: url(https://www.simplyrecipes.com/wp-content/uploads/2006/09/Garlic-Bread-LEAD-2b.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.li4 {
+  background-image: url(https://www.handletheheat.com/wp-content/uploads/2014/08/Focaccia-Bread-SQUARE.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.li5 {
+  background-image: url(https://bakingamoment.com/wp-content/uploads/2019/02/IMG_2757-croissant-recipe-easy.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.li6 {
+  background-image: url(https://food-images.files.bbci.co.uk/food/recipes/savoury_french_toast_44950_16x9.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.flex-list {
+  display: flex;
+}
+
+.flex-list li {
+  flex: auto;
+}
+
+/* fixed icon */
+.fixedcart img {
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  left: 1200px;
+  top: 460px;
+  z-index: 10;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
